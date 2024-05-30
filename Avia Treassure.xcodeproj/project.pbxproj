@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EED1E92F2C0351CB00B2FDE7 /* Avia_TreassureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED1E92E2C0351CB00B2FDE7 /* Avia_TreassureApp.swift */; };
+		EED1E9312C0351CB00B2FDE7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED1E9302C0351CB00B2FDE7 /* ContentView.swift */; };
+		EED1E9332C0351CD00B2FDE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EED1E9322C0351CD00B2FDE7 /* Assets.xcassets */; };
+		EED1E9362C0351CD00B2FDE7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EED1E9352C0351CD00B2FDE7 /* Preview Assets.xcassets */; };
+		EED1E9462C0354D700B2FDE7 /* MenuContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED1E9452C0354D700B2FDE7 /* MenuContent.swift */; };
+		EED1E9492C03555300B2FDE7 /* DelegateOfApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED1E9482C03555300B2FDE7 /* DelegateOfApp.swift */; };
+		EED1E94B2C03562C00B2FDE7 /* ZenAntique-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EED1E94A2C03562C00B2FDE7 /* ZenAntique-Regular.ttf */; };
+		EED1E94E2C03682300B2FDE7 /* LvlsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED1E94D2C03682300B2FDE7 /* LvlsContentView.swift */; };
+		EED1E9502C036A7F00B2FDE7 /* LvlsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED1E94F2C036A7F00B2FDE7 /* LvlsData.swift */; };
+		EED1E9522C03762800B2FDE7 /* RulesDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED1E9512C03762800B2FDE7 /* RulesDataView.swift */; };
+		EED1E9542C037A7400B2FDE7 /* OptionsGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED1E9532C037A7400B2FDE7 /* OptionsGameView.swift */; };
+		EED1E9572C03817E00B2FDE7 /* ShopContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED1E9562C03817E00B2FDE7 /* ShopContentView.swift */; };
+		EED1E9592C0381C600B2FDE7 /* ShopAppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED1E9582C0381C600B2FDE7 /* ShopAppData.swift */; };
+		EED1E95B2C0393C200B2FDE7 /* UserGameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED1E95A2C0393C200B2FDE7 /* UserGameData.swift */; };
+		EED1E95E2C03A39A00B2FDE7 /* TreassureGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED1E95D2C03A39A00B2FDE7 /* TreassureGameView.swift */; };
+		EED1E9602C03A3AA00B2FDE7 /* TreassureGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED1E95F2C03A3A900B2FDE7 /* TreassureGameScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EED1E92B2C0351CB00B2FDE7 /* Avia Treassure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Avia Treassure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EED1E92E2C0351CB00B2FDE7 /* Avia_TreassureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avia_TreassureApp.swift; sourceTree = "<group>"; };
+		EED1E9302C0351CB00B2FDE7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EED1E9322C0351CD00B2FDE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EED1E9352C0351CD00B2FDE7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EED1E9452C0354D700B2FDE7 /* MenuContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuContent.swift; sourceTree = "<group>"; };
+		EED1E9482C03555300B2FDE7 /* DelegateOfApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateOfApp.swift; sourceTree = "<group>"; };
+		EED1E94A2C03562C00B2FDE7 /* ZenAntique-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZenAntique-Regular.ttf"; sourceTree = "<group>"; };
+		EED1E94C2C03564800B2FDE7 /* Avia-Treassure-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Avia-Treassure-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EED1E94D2C03682300B2FDE7 /* LvlsContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LvlsContentView.swift; sourceTree = "<group>"; };
+		EED1E94F2C036A7F00B2FDE7 /* LvlsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LvlsData.swift; sourceTree = "<group>"; };
+		EED1E9512C03762800B2FDE7 /* RulesDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesDataView.swift; sourceTree = "<group>"; };
+		EED1E9532C037A7400B2FDE7 /* OptionsGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsGameView.swift; sourceTree = "<group>"; };
+		EED1E9562C03817E00B2FDE7 /* ShopContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopContentView.swift; sourceTree = "<group>"; };
+		EED1E9582C0381C600B2FDE7 /* ShopAppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopAppData.swift; sourceTree = "<group>"; };
+		EED1E95A2C0393C200B2FDE7 /* UserGameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserGameData.swift; sourceTree = "<group>"; };
+		EED1E95D2C03A39A00B2FDE7 /* TreassureGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreassureGameView.swift; sourceTree = "<group>"; };
+		EED1E95F2C03A3A900B2FDE7 /* TreassureGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreassureGameScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EED1E9282C0351CB00B2FDE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EED1E9222C0351CB00B2FDE7 = {
+			isa = PBXGroup;
+			children = (
+				EED1E92D2C0351CB00B2FDE7 /* Avia Treassure */,
+				EED1E92C2C0351CB00B2FDE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EED1E92C2C0351CB00B2FDE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EED1E92B2C0351CB00B2FDE7 /* Avia Treassure.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EED1E92D2C0351CB00B2FDE7 /* Avia Treassure */ = {
+			isa = PBXGroup;
+			children = (
+				EED1E94C2C03564800B2FDE7 /* Avia-Treassure-Info.plist */,
+				EED1E94A2C03562C00B2FDE7 /* ZenAntique-Regular.ttf */,
+				EED1E9472C03554800B2FDE7 /* Utils */,
+				EED1E93E2C03543100B2FDE7 /* Data */,
+				EED1E93D2C03542600B2FDE7 /* Components */,
+				EED1E93C2C03541500B2FDE7 /* Views */,
+				EED1E92E2C0351CB00B2FDE7 /* Avia_TreassureApp.swift */,
+				EED1E9322C0351CD00B2FDE7 /* Assets.xcassets */,
+				EED1E9342C0351CD00B2FDE7 /* Preview Content */,
+			);
+			path = "Avia Treassure";
+			sourceTree = "<group>";
+		};
+		EED1E9342C0351CD00B2FDE7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EED1E9352C0351CD00B2FDE7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EED1E93C2C03541500B2FDE7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EED1E9552C03816500B2FDE7 /* ShopContent */,
+				EED1E9442C0354CB00B2FDE7 /* MenuContent */,
+				EED1E9432C0354BE00B2FDE7 /* Rules */,
+				EED1E9422C0354B600B2FDE7 /* Options */,
+				EED1E9412C0354AE00B2FDE7 /* GameContent */,
+				EED1E9402C03546600B2FDE7 /* Lvls */,
+				EED1E9302C0351CB00B2FDE7 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EED1E93D2C03542600B2FDE7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		EED1E93E2C03543100B2FDE7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EED1E94F2C036A7F00B2FDE7 /* LvlsData.swift */,
+				EED1E9582C0381C600B2FDE7 /* ShopAppData.swift */,
+				EED1E95A2C0393C200B2FDE7 /* UserGameData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		EED1E9402C03546600B2FDE7 /* Lvls */ = {
+			isa = PBXGroup;
+			children = (
+				EED1E94D2C03682300B2FDE7 /* LvlsContentView.swift */,
+			);
+			path = Lvls;
+			sourceTree = "<group>";
+		};
+		EED1E9412C0354AE00B2FDE7 /* GameContent */ = {
+			isa = PBXGroup;
+			children = (
+				EED1E95C2C03A38900B2FDE7 /* SceneGame */,
+				EED1E95D2C03A39A00B2FDE7 /* TreassureGameView.swift */,
+			);
+			path = GameContent;
+			sourceTree = "<group>";
+		};
+		EED1E9422C0354B600B2FDE7 /* Options */ = {
+			isa = PBXGroup;
+			children = (
+				EED1E9532C037A7400B2FDE7 /* OptionsGameView.swift */,
+			);
+			path = Options;
+			sourceTree = "<group>";
+		};
+		EED1E9432C0354BE00B2FDE7 /* Rules */ = {
+			isa = PBXGroup;
+			children = (
+				EED1E9512C03762800B2FDE7 /* RulesDataView.swift */,
+			);
+			path = Rules;
+			sourceTree = "<group>";
+		};
+		EED1E9442C0354CB00B2FDE7 /* MenuContent */ = {
+			isa = PBXGroup;
+			children = (
+				EED1E9452C0354D700B2FDE7 /* MenuContent.swift */,
+			);
+			path = MenuContent;
+			sourceTree = "<group>";
+		};
+		EED1E9472C03554800B2FDE7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EED1E9482C03555300B2FDE7 /* DelegateOfApp.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EED1E9552C03816500B2FDE7 /* ShopContent */ = {
+			isa = PBXGroup;
+			children = (
+				EED1E9562C03817E00B2FDE7 /* ShopContentView.swift */,
+			);
+			path = ShopContent;
+			sourceTree = "<group>";
+		};
+		EED1E95C2C03A38900B2FDE7 /* SceneGame */ = {
+			isa = PBXGroup;
+			children = (
+				EED1E95F2C03A3A900B2FDE7 /* TreassureGameScene.swift */,
+			);
+			path = SceneGame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EED1E92A2C0351CB00B2FDE7 /* Avia Treassure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EED1E9392C0351CD00B2FDE7 /* Build configuration list for PBXNativeTarget "Avia Treassure" */;
+			buildPhases = (
+				EED1E9272C0351CB00B2FDE7 /* Sources */,
+				EED1E9282C0351CB00B2FDE7 /* Frameworks */,
+				EED1E9292C0351CB00B2FDE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Avia Treassure";
+			productName = "Avia Treassure";
+			productReference = EED1E92B2C0351CB00B2FDE7 /* Avia Treassure.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EED1E9232C0351CB00B2FDE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					EED1E92A2C0351CB00B2FDE7 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = EED1E9262C0351CB00B2FDE7 /* Build configuration list for PBXProject "Avia Treassure" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EED1E9222C0351CB00B2FDE7;
+			productRefGroup = EED1E92C2C0351CB00B2FDE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EED1E92A2C0351CB00B2FDE7 /* Avia Treassure */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EED1E9292C0351CB00B2FDE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED1E9362C0351CD00B2FDE7 /* Preview Assets.xcassets in Resources */,
+				EED1E94B2C03562C00B2FDE7 /* ZenAntique-Regular.ttf in Resources */,
+				EED1E9332C0351CD00B2FDE7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EED1E9272C0351CB00B2FDE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED1E9522C03762800B2FDE7 /* RulesDataView.swift in Sources */,
+				EED1E95B2C0393C200B2FDE7 /* UserGameData.swift in Sources */,
+				EED1E9542C037A7400B2FDE7 /* OptionsGameView.swift in Sources */,
+				EED1E9572C03817E00B2FDE7 /* ShopContentView.swift in Sources */,
+				EED1E9602C03A3AA00B2FDE7 /* TreassureGameScene.swift in Sources */,
+				EED1E9592C0381C600B2FDE7 /* ShopAppData.swift in Sources */,
+				EED1E95E2C03A39A00B2FDE7 /* TreassureGameView.swift in Sources */,
+				EED1E9312C0351CB00B2FDE7 /* ContentView.swift in Sources */,
+				EED1E9462C0354D700B2FDE7 /* MenuContent.swift in Sources */,
+				EED1E92F2C0351CB00B2FDE7 /* Avia_TreassureApp.swift in Sources */,
+				EED1E94E2C03682300B2FDE7 /* LvlsContentView.swift in Sources */,
+				EED1E9502C036A7F00B2FDE7 /* LvlsData.swift in Sources */,
+				EED1E9492C03555300B2FDE7 /* DelegateOfApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EED1E9372C0351CD00B2FDE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EED1E9382C0351CD00B2FDE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EED1E93A2C0351CD00B2FDE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Avia Treassure/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Avia-Treassure-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamebig.Avia-Treassure";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EED1E93B2C0351CD00B2FDE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Avia Treassure/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Avia-Treassure-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamebig.Avia-Treassure";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EED1E9262C0351CB00B2FDE7 /* Build configuration list for PBXProject "Avia Treassure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED1E9372C0351CD00B2FDE7 /* Debug */,
+				EED1E9382C0351CD00B2FDE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EED1E9392C0351CD00B2FDE7 /* Build configuration list for PBXNativeTarget "Avia Treassure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED1E93A2C0351CD00B2FDE7 /* Debug */,
+				EED1E93B2C0351CD00B2FDE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EED1E9232C0351CB00B2FDE7 /* Project object */;
+}
